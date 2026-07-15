@@ -2,81 +2,108 @@
 <h3 align="center">Applied AI & Data Professional | Financial Analytics · RAG · Python · SQL</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ntheofan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:ntheofan9@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/ntheofan">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:ntheofan9@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </p>
 
 ---
 
 ### 🧭 About Me
 
-I have **10 years of experience in financial operations, payroll analytics, and process automation** at the Hellenic Army, and I recently completed an **MSc in Artificial Intelligence and Applications** (University of Thessaly, grade 9.65/10). I'm now moving from data/finance analytics toward **Applied AI Engineering**, with a specific focus on **deployment and MLOps** — turning working models into services that run in production, not just notebooks.
+I combine **10 years of experience in financial operations, payroll analytics, auditing, and process automation** with an **MSc in Artificial Intelligence and Applications** from the University of Thessaly, completed with a grade of **9.65/10**.
 
-- 🎖️ Captain – Finance Corps, Hellenic Army — analyzing payroll & HR data for **55,000+ personnel**
+My current focus is on building applied AI systems for **financial analytics and document intelligence**, particularly Retrieval-Augmented Generation, information retrieval, evaluation, APIs, and production-oriented development.
+
+- 🎖️ Financial Officer & Data Analyst, Hellenic Army — payroll analytics, HR data validation, reporting, and process automation at organizational scale
 - 🎓 MSc thesis on Retrieval-Augmented Generation for financial document analysis
-- 📊 Google Data Analytics–certified | SQL, Python, Power BI, Advanced Excel
-- 🧠 Mensa International member (IQ 133, 99th percentile)
-- 🌱 Currently learning: Docker, FastAPI, CI/CD, and cloud deployment (AWS)
+- 📊 Google Data Analytics Professional Certificate
+- 🌱 Currently developing skills in FastAPI, Docker, automated testing, CI/CD, and cloud deployment
 
 ---
 
-### 🚀 Building: Financial RAG API
+### 🚀 Featured Project: Financial RAG Evaluation Platform
 
-My MSc thesis, **"Design and Empirical Evaluation of Retrieval-Augmented Generation Systems for Financial Document Analysis,"** evaluated dense, hybrid, and cross-encoder reranked retrieval pipelines over financial reports (BGE-M3 embeddings, FAISS, BM25, Reciprocal Rank Fusion, RAGAS/RAGChecker evaluation).
+My MSc thesis, **“Design and Empirical Evaluation of Retrieval-Augmented Generation Systems for Financial Document Analysis,”** compared three retrieval configurations:
 
-I'm now turning that academic pipeline into a deployed service:
+1. Dense retrieval
+2. Hybrid dense and BM25 retrieval with Reciprocal Rank Fusion
+3. Hybrid retrieval with cross-encoder reranking
 
-- [ ] Wrap the retrieval + generation pipeline in a FastAPI backend
-- [ ] Containerize with Docker
-- [ ] Deploy to a cloud host with a live, testable URL
-- [ ] Add basic monitoring/logging
+The experimental pipeline was developed over:
 
-**Status: in progress.** This section will be replaced with a live demo link and repo once deployed — no shortcuts, no placeholders pretending otherwise.
+- **84 financial documents**
+- **37,037 document chunks**
+- **150 FinanceBench questions**
+- Passage-level Evidence Hit@K and MRR evaluation
+- RAGAS and RAGChecker end-to-end evaluation
+- Systematic retrieval and generation failure analysis
+
+**Core technologies**
+
+`Python` `BGE-M3` `FAISS` `BM25` `RRF`  
+`Cross-Encoder Reranking` `RAGAS` `RAGChecker`
+
+#### Current development roadmap
+
+- [ ] Reorganize the experimental pipeline into reusable Python modules
+- [ ] Expose retrieval and generation through FastAPI
+- [ ] Add automated tests and GitHub Actions
+- [ ] Containerize the application with Docker
+- [ ] Deploy a documented live demo
+- [ ] Add structured logging and basic monitoring
+
+**Status:** Active development. The repository and live demo will be published after the pipeline is reorganized, tested, and documented.
 
 ---
 
-### 📚 Learning log
+### 🧪 Selected Academic Projects
 
-These are academic and self-study projects I've worked through — useful for understanding the underlying methods, not yet production systems. Repos will be linked here as they're cleaned up and published.
-
-| Topic | What it covers |
+| Project | Methods |
 |---|---|
-| Mobile robot navigation | A* path planning, Extended Kalman Filter localization, waypoint control (simulation) |
-| ML fundamentals | Decision trees, regression, Naive Bayes, Bayesian networks, Apriori, KNN, SVM, clustering, Q-learning |
-| Computer vision / deep learning | CIFAR-10/100 classification — KNN, MLP, and CNN comparison in TensorFlow/Keras |
-| Generative models | Vanilla GAN, DCGAN, cGAN, and WGAN-GP across CIFAR-10, CIFAR-100, and Fashion-MNIST, evaluated with FID and Precision/Recall |
+| Financial RAG evaluation | Dense retrieval, BM25, RRF, reranking, RAGAS, RAGChecker |
+| Mobile robot navigation | A* path planning, Extended Kalman Filter localization, waypoint control |
+| Image classification | KNN, MLP, CNN, TensorFlow/Keras, CIFAR-10 and CIFAR-100 |
+| Generative image models | GAN, DCGAN, cGAN, WGAN-GP, FID, Precision and Recall |
+
+Repositories will be linked as the implementations are cleaned, documented, and published.
 
 ---
 
-### 🛠️ Currently learning (deployment & MLOps)
+### 🛠️ Technical Stack
 
-- [x] Python, SQL, Power BI, Advanced Excel
-- [x] Classic ML & deep learning fundamentals (see learning log above)
-- [ ] FastAPI — building and exposing model APIs
-- [ ] Docker — containerizing services
-- [ ] CI/CD (GitHub Actions)
-- [ ] Cloud deployment (AWS)
-- [ ] Vector databases & RAG frameworks (LangChain / LlamaIndex)
+**Programming and data**
 
----
+`Python` `SQL` `Oracle SQL` `PL/SQL` `Pandas` `NumPy`
 
-### 🎓 Certifications & Education
+**AI and information retrieval**
 
-- **MSc, Artificial Intelligence and Applications** — University of Thessaly (Grade: 9.65/10)
-- **Diploma, Analysts–Programmers Program (144th Training Class)** — Hellenic Army School of Computer Programmers (ΣΠΗΥ), 2024–2025 (Overall grade: 96.01/100 — "Άριστα")
-- **Google Data Analytics Professional Certificate** — Google, 2025
-- **Microsoft Power BI Desktop for Business Intelligence** — Udemy, 2025
-- **Machine Learning A-Z: AI, Python & R** — Udemy, 2025
-- **SQL (Basic)** — HackerRank, 2025
-- **Bachelor of Economics** — Aristotle University of Thessaloniki, 2015 (Grade: 8.02/10)
+`Machine Learning` `RAG` `LLMs` `Embeddings` `FAISS`  
+`BM25` `Cross-Encoder Reranking` `Hugging Face` `RAGAS`
+
+**Analytics**
+
+`Power BI` `Excel` `Financial Analytics` `Payroll Analytics`  
+`Data Validation` `Process Automation`
+
+**Currently developing**
+
+`FastAPI` `Docker` `GitHub Actions` `Automated Testing` `AWS`
 
 ---
 
-### 📫 Let's connect
+### 🎓 Education & Credentials
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/ntheofan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:ntheofan9@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+- **MSc in Artificial Intelligence and Applications** — University of Thessaly, Grade: 9.65/10
+- **Analysts–Programmers Program, 144th Training Class** — Hellenic Army School of Computer Programmers, Grade: 96.01/100
+- **Google Data Analytics Professional Certificate** — Google
+- **Bachelor of Economics** — Aristotle University of Thessaloniki, Grade: 8.02/10
+
+---
+
+<p align="center">
+  <i>Athens, Greece 🇬🇷 · Open to remote and hybrid opportunities</i>
 </p>
-
-<p align="center"><i>Athens, Greece 🇬🇷</i></p>

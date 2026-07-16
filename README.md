@@ -63,7 +63,7 @@ These are academic and self-study projects I've worked through — useful for un
 ### 🎓 Certifications & Education
 
 - **MSc, Artificial Intelligence and Applications** — University of Thessaly (Grade: 9.65/10)
-- **Diploma, Analysts–Programmers Program (144th Training Class)** — Hellenic Army School of Computer Programmers (ΣΠΗΥ), 2024–2025 (Overall grade: 96.01/100 — "Άριστα")
+- **Diploma, Analysts–Programmers Program** — Hellenic Army School of Computer Programmers (ΣΠΗΥ), 2024–2025 (Overall grade: 96.01/100)
 - **Google Data Analytics Professional Certificate** — Google, 2025
 - **Microsoft Power BI Desktop for Business Intelligence** — Udemy, 2025
 - **Machine Learning A-Z: AI, Python & R** — Udemy, 2025

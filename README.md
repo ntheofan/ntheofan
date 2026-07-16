@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Theofanis Nikolaou 👋</h1>
-<h3 align="center">Financial Data Analyst | AI/ML (MSc)</h3>
+<h3 align="center">Applied AI & Data Professional|Financial Analytics · RAG · Python · SQL</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ntheofan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>

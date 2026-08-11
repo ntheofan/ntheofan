@@ -48,17 +48,6 @@ These are academic and self-study projects I've worked through — useful for un
 
 ---
 
-### 🛠️ Currently learning (deployment & MLOps)
-
-- [x] Python, SQL, Power BI, Advanced Excel
-- [x] Classic ML & deep learning fundamentals (see learning log above)
-- [ ] FastAPI — building and exposing model APIs
-- [ ] Docker — containerizing services
-- [ ] CI/CD (GitHub Actions)
-- [ ] Cloud deployment (AWS)
-- [ ] Vector databases & RAG frameworks (LangChain / LlamaIndex)
-
----
 
 ### 🎓 Certifications & Education
 

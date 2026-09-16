@@ -102,8 +102,6 @@ Infrastructure
 └── Cloud deployment
 ```
 
-The goal is simple: move from **"I understand the model"** to **"I can build, evaluate, expose, deploy, and maintain the system."**
-
 ---
 
 ## 🛠️ Tech Stack
